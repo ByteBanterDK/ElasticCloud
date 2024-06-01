@@ -216,7 +216,7 @@ Then remember to input the command "sudo apt update && sudo apt upgrade" reasons
 <h2>Compatibility:</h2> Updates ensure better compatibility with the latest hardware and software.
 <h2>Support:</h2> Staying up-to-date makes it easier to get help and use current documentation.
 Maintaining an updated Kali Linux system ensures it remains secure, stable, and equipped with the latest tools for cybersecurity tasks.<br />
-<img src="https://i.imgur.com/hNE3MHf.png" height="700" width="700"/>
+<img src="https://i.imgur.com/hNE3MHf.png" height="300" width="300"/>
 <br />
 <br />
 When the deployment is ready click on continue: <br/>
