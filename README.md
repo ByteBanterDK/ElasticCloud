@@ -216,7 +216,7 @@ Then remember to input the command "sudo apt update && sudo apt upgrade" reasons
 <h2>Compatibility:</h2> Updates ensure better compatibility with the latest hardware and software.
 <h2>Support:</h2> Staying up-to-date makes it easier to get help and use current documentation.
 Maintaining an updated Kali Linux system ensures it remains secure, stable, and equipped with the latest tools for cybersecurity tasks.<br />
-<img src="https://i.imgur.com/hNE3MHf.png" height="500" width="500"/>
+<img src="https://i.imgur.com/hNE3MHf.png" height="700" width="700"/>
 <br />
 <br />
 When the deployment is ready click on continue: <br/>
@@ -267,9 +267,14 @@ Now you see it's sending data through my Kali Linux Machine to my main computuer
 <img src="https://i.imgur.com/ik8yGOf.png"/>
 <br />
 <br />
+When this text pop's up just confirm inputing "Y": <br/>
+<img src="https://i.imgur.com/kWIImmq.png"/>
 <br />
 <br />
 When this text pop's up just confirm inputing "Y": <br/>
+<img src="https://i.imgur.com/kWIImmq.png"/>
+<br />
+<br />
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
