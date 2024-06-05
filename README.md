@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 Description
-This project involves setting up a Security Information and Event Management (SIEM) dashboard using Elastic Cloud. The goal is to enhance visibility into security events and improve incident detection and response capabilities. The project includes configuring Elastic Cloud, integrating various data sources, creating alerts, and visualising security-related data.</br>
+This project involves setting up a Security Information and Event Management (SIEM) dashboard using Elastic Cloud. The goal is to enhance visibility into security events and improve incident detection and response capabilities. The project includes configuring Elastic Cloud, integrating various data sources, creating alerts, and visualising security-related data.
 
 <h2>Key Objectives:</h2>
 Set up Elastic Cloud account and basic configurations: Establishing a new account on Elastic Cloud and configuring the necessary settings to get started.
@@ -10,8 +10,8 @@ Integrate Kali Linux with Elastic Defend: Connecting a Kali Linux machine with E
 Implement Packetbeat: Using Packetbeat to collect and send data to Elastic Cloud, providing insights into network activities.
 Create and manage security alerts: Configuring alerts to monitor specific security events, such as network scans detected by nmap.
 Data visualisation and dashboard creation: Utilising Elastic Cloud's visualisation features to create informative and actionable dashboards.
-Proactive monitoring: Setting up the system to proactively monitor for suspicious activities and potential security threats..
-</br>
+Proactive monitoring: Setting up the system to proactively monitor for suspicious activities and potential security threats.
+Creating rules and setting up network packet capture: Integrating and configuring rules on Elastic Cloud to capture and analyse network packets effectively.
 
 
 <h2>Languages and Utilities Used</h2>
@@ -198,6 +198,10 @@ Input your name and a company as this only a 14 day's trial: <br/>
 <br />
 After clicking on Next, create your deployment: <br/>
 <img src="https://i.imgur.com/gVjkZsh.png"/>
+<br />
+<br />
+Remember to save your username & password credentials  <br/>
+<img src="https://i.imgur.com/cremJNL.png"/>
 <br />
 <br />
 It could take 5 minutes or 10 to create your deployment: <br/>
