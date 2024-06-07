@@ -288,6 +288,7 @@ First find out what is your ip address for your kali linux machine "ifconfig":
 <br />
 <br />
 You would find it starting with 192 your ip address for that computer specifically inputing in the BASH terminal:
+<br />
 <img src="https://i.imgur.com/cHb3ZXx.png"
 <br />
 <br />
@@ -327,6 +328,7 @@ Now you see their is connecton between both machines and allowing data to be sen
 <br />
 <br />
 Process to input a nmap command, i am going to show you how you can find it in the logs:
+<br />
 <img src="https://i.imgur.com/wz8q8tL.png"
 <br />
 <br />
