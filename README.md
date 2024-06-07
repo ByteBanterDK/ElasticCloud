@@ -322,6 +322,7 @@ Scroll down until you find "file and print sharing (echo requesting) IPV4 and IP
 <br />
 <br />
 Now you see their is connecton between both machines and allowing data to be sent across the systems:
+<br />
 <img src="https://i.imgur.com/PEoeKxm.png"
 <br />
 <br />
@@ -338,7 +339,8 @@ This page will pop up where it show's your recent actions you can change the to 
 <br />
 <br />
 Search "Process:args: nmap" then procced to click on the three dots then view details:
-<img src="https://i.imgur.com/2Fk2txX.png"> <img src="https://i.imgur.com/eJjhrdc.png"> <img src="https://i.imgur.com/G0mae01.png">
+<img src="https://i.imgur.com/2Fk2txX.png"> <img src="https://i.imgur.com/eJjhrdc.png"> <img src="https://i.imgur.com/G0mae01.png"> 
+<br />
 Then scroll down and you will find the latest command you inputed in the terminal bash:
 <br />
 <br />
@@ -348,6 +350,7 @@ Click on create visualization:
 <img src="https://i.imgur.com/zWJ1eBZ.jpg">
 Firsly click on horizontal axis, pick @timestamp:
 <img src="https://i.imgur.com/yUrJpBE.png"> <img src="https://i.imgur.com/l66zovN.png">
+<br />
 Secondly click on Vertical axis, chose count:
 <img src="https://i.imgur.com/1YDDfpx.png"> <img src="https://i.imgur.com/cBD2nCz.png">
 <br />
@@ -365,7 +368,7 @@ Now when you're done remember to save and return:
 <br />
 <br />
 When saved and return click on add panel then procced to click on log stream:
-<img src="https://i.imgur.com/amZg2Mg.png"> #
+<img src="https://i.imgur.com/amZg2Mg.png">
 <br />
 You will be able to see, recent logs from you Kali linux machine:
 <img src="https://i.imgur.com/TdKHTa4.png">
@@ -379,7 +382,7 @@ However with Elastic cloud, it comes with perapred dashboard for example Detecti
 <br />
 <br />
 Let's configure elastic agent on kali linux starting off inputing these two commands shown in the screenshot also for this example we won't be setting up API KEYS OR SSL certification :
-<img src="https://i.imgur.com/QoPiZZR.png"> ]
+<img src="https://i.imgur.com/QoPiZZR.png">
 <br />
 As seen in the screen shot we need to find you elastic search endpoint:
 <img src="https://i.imgur.com/DOQSsZj.png"> <img src="https://i.imgur.com/hLpzO9C.png">
@@ -390,12 +393,13 @@ When you copied the elastic search endpoint, remember those credentials you save
 <br />
 Now we have configured elastic agent let's download packetbeat from my example i have shown on word document:
 <img src="https://i.imgur.com/dPPd3hr.png">
+<br />
 Skip this part click on "Cancel":
 <img src="https://i.imgur.com/45ODYfm.png">
 <br />
 <br />
 Now input the command shown on the screen shot, to check if it's running and active, it's unactive so let's fix this:
-<img src="https://i.imgur.com/FIqYMoe.png">
+<img src="https://i.imgur.com/FIqYMoe.png"> <br />
 Input the command shown in the screen shot below:
 <img src="https://i.imgur.com/pd5GGz4.png">
 <br />
@@ -410,7 +414,7 @@ Scroll down to below outputs, elastic search output we will be including elastic
 <br />
 <br />
 When configured, input the command to see if the config is ensure working, then next command "sudo journalctl -u packetbeat":
-<img src="https://i.imgur.com/0RV97QQ.png"> 
+<img src="https://i.imgur.com/0RV97QQ.png"> <br />
 You can seen in the screenshot below, their is a mistake configured on packetbeat.yml, let's resolve this issue:
 <img src="https://i.imgur.com/AzwMlCi.png">
 <br />
@@ -439,7 +443,8 @@ Go back onto <body> SUDO NANO /ETC/PACKETBEAT/PACKETBEAT.YML </body> then find i
 <img src="https://i.imgur.com/J7lsGt2.png"> <img src="https://i.imgur.com/5U0CtF3.png">
 <br />
 <br />
- Now let's setup packetbeat: <img src="https://i.imgur.com/3djW0fR.png"> <br> You can cleary see that their is a mistake in the packetbeat.yml configuration:    
+Now let's setup packetbeat: 
+ <img src="https://i.imgur.com/3djW0fR.png"> <br> You can cleary see that their is a mistake in the packetbeat.yml configuration:    
 <img src="https://i.imgur.com/qjDgVfy.png">
 <br />
 Below setup.kibana type this correctly, shown below:
@@ -460,7 +465,7 @@ Then check status of packetbeat you see now it's active and running <em> perfect
 <br />
 click on the drop box and chose packetbeat-* then proceed to click on dashboard you see DNS traffic and if you click "dashboards" many other dashboards that is assigned with packetbeat specifically: 
 <img src="https://i.imgur.com/Cn2M8yf.png"> <img src="https://i.imgur.com/nAdbLVE.png"> <img src="https://i.imgur.com/lglls2u.png"> <img src="https://i.imgur.com/A07O7L3.png">
-<h1> Here is addition you can configure on elastic cloud, and network packet capture a intergraton that will be automatically created for you and your machine instead of manually setting it up with packetbeat or another service:                                                                        <br />
+<h1> Here is addition </h1> you can configure on elastic cloud, and network packet capture a intergraton that will be automatically created for you and your machine instead of manually setting it up with packetbeat or another service:                                                             <br />
 <body> let's create a rule </body> starting off find Oversability then rules, click on create new rule after creating a name click on elastic search query for this example: 
 <img src="https://i.imgur.com/MhbsnB0.png">
 <br />
@@ -487,6 +492,7 @@ Then click on the copy symbol:
 <img src="https://i.imgur.com/8BNUsHC.png">
 <br /> 
 Under <body> INPUTS: </body> the commands you just copied from network packet caputre paste it in CTRL + C + V:
+<br />
 <img src="https://i.imgur.com/aDefpgu.png">
 <br />
 Now go back onto your dashboard's, the netwrok packet captures dashboard that they provid will be available<br/>
