@@ -446,7 +446,8 @@ Go back onto <body> SUDO NANO /ETC/PACKETBEAT/PACKETBEAT.YML </body> then find i
 <br />
 <br />
 Now let's setup packetbeat: 
- <img src="https://i.imgur.com/3djW0fR.png"> <br> You can cleary see that their is a mistake in the packetbeat.yml configuration:    
+<br />
+<img src="https://i.imgur.com/3djW0fR.png"> <br> You can cleary see that their is a mistake in the packetbeat.yml configuration:    
 <img src="https://i.imgur.com/qjDgVfy.png">
 <br />
 Below setup.kibana type this correctly, shown below:
